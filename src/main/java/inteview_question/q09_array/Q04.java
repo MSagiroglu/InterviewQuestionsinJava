@@ -27,6 +27,25 @@ public class Q04 {
 
             // Sonucu ekrana yazdıralım
             System.out.println( "2 ayrı Array'in "+i + " . index toplamı : "+ sum);
+
+
+            //2.yol
+            int arr11 [][]= {{1,2},{1,2,3},{6}} ;
+            int arr22 [][]= {{7,8,9}, {10,11},{12}};
+
+            int x=0;
+
+            for (int k=0; k< arr11.length && k<arr22.length; k++) {
+
+                for (int j = 0; j < arr11[k].length && j < arr22[k].length; j++) {
+
+                    x = (arr11[k][j] + arr22[k][j]);
+                    System.out.println(k+"'inci index'teki arraylerin "+j+"'inci index'teki elemanlarının toplamı: "+x+" eder");
+                    x++;
+                }
+
+            }
+            System.out.println("arr11 ve arr22 multidimentional array'lerinin aynı index'te bulunan başka elemanları yoktur.");
         }
     }
 }
