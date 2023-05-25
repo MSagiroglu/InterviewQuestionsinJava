@@ -19,7 +19,7 @@ public class Q09 {
                 minPositive = Math.min(minPositive, w);
             }
             if (w < 0) {
-                maxNegative = Math."qmax(maxNegative, w);
+                maxNegative = Math.max(maxNegative, w);
             }
         }
         System.out.println("Minimum positive: " + minPositive);
