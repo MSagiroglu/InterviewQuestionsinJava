@@ -1,6 +1,6 @@
 package inteview_question.q09_array;
 
-public class Q04 {
+public class    Q04 {
     public static void main(String[] args) {
         /*
         asagidaki multi dimensional arraylerin ic arraylerinde ayni indexe sahip elemanalarini
