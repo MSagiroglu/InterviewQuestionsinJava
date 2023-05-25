@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Q06 {
     public static void main(String[] args) {
         /*
-        Veriilen array'den istenen degree esit olan
+        Veriilen array'den istenen degere esit olan
         elemanlari kaldirip, kalanlari yeni bir Array
         olarak yazdiran bir method yaziniz.
          */
